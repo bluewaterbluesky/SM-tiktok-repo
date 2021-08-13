@@ -1,0 +1,61 @@
+body {
+    height: 100%;
+    background-color: #009199;
+    background-image: url('../../images/bg-gradient.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-sm-primary {
+    background-color: #ff8000;
+    color: #fff;
+}
+
+.btn-sm-outline-primary {
+    border-color: #ff8000;
+    color: #ff8000;
+}
+
+.round-card-border {
+    padding: 20px;
+    border: 2px solid #03f3ef;
+    border-radius: 20px;
+}
+
+.round-card-border-1 {
+    background-color: #dc638f;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.round-card-border-2 {
+    background-color: #f8d061;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.text-blue {
+    color: #053592;
+}
+
+.sm-img-cover img {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+.sm-img-cover-one img {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+.sm-img-cover-1 img {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
