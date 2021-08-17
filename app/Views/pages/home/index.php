@@ -23,7 +23,7 @@
                     </strong>
                 </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="#" role="button" class="btn btn-sm-primary shadow">Join the Challenge</a>
+                    <a href="<?= base_url('signup') ?>" class="btn btn-sm-primary shadow">Join the Challenge</a>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
                 What are you waiting for? Join SUPER AWESM TIKTOK Challenge!
             </h1>
             <div class="d-grid d-sm-flex justify-content-center">
-                <a href="#" class="btn btn-sm-primary shadow" role="button">Join the Challenge</a>
+                <a href="<?= base_url('signup') ?>" class="btn btn-sm-primary shadow" role="button">Join the Challenge</a>
             </div>
         </div>
     </div>
@@ -149,7 +149,7 @@
                         <a href="#">Forgot your password?</a>
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-sm-primary shadow mt-3">Sign In</button>
-                            <button type="button" class="btn btn-sm-outline-primary shadow">Don't have an account? Sign Up!</button>
+                            <a href="<?= base_url('signup') ?>" class="btn btn-sm-outline-primary shadow">Don't have an account? Sign Up!</a>
                         </div>
                     </form>
                 </div>

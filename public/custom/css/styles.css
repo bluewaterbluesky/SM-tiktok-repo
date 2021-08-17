@@ -4,6 +4,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 .btn-sm-primary {
@@ -11,9 +12,19 @@ body {
     color: #fff;
 }
 
+.btn-sm-primary:hover {
+    background-color: #c26100;
+    color: #fff;
+}
+
 .btn-sm-outline-primary {
     border-color: #ff8000;
     color: #ff8000;
+}
+
+.btn-sm-outline-primary:hover {
+    border-color: #c26100;
+    color: #c26100;
 }
 
 .round-card-border {
@@ -57,4 +68,13 @@ body {
     z-index: -1;
     right: 0;
     bottom: 0;
+}
+
+.sm-avatar img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.border-radius-20 {
+    border-radius: 20px;
 }

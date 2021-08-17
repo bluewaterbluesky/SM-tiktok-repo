@@ -14,4 +14,14 @@ class Home extends BaseController
 
 		return view('home', $data);
 	}
+
+	public function signup() {
+		$data = [
+			'title'		=> 'Sign Up',
+			'content'	=> 'pages/home/signup',
+			'js'		=> 'js/signup.js'
+		];
+
+		return view('signup_template', $data);
+	}
 }
