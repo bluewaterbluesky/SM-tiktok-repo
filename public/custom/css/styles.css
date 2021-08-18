@@ -1,5 +1,5 @@
 body {
-    background-color: #009199;
+    background-color: #008fff;
     background-image: url('../../images/bg-gradient.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -77,4 +77,14 @@ body {
 
 .border-radius-20 {
     border-radius: 20px;
+}
+
+.sm-text-yellow {
+    color: #fcff00;
+}
+
+@media only screen and (max-width: 768px) {
+    .maintenance img {
+        width: 300px;
+    }
 }

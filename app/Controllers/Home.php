@@ -24,4 +24,14 @@ class Home extends BaseController
 
 		return view('signup_template', $data);
 	}
+
+	public function maintenance() {
+		$data = [
+			'title'		=> 'Under Maintenance',
+			'content'	=> 'pages/home/maintenance',
+			'js'		=> 'js/maintenance.js'
+		];
+
+		return view('blue_template', $data);
+	}
 }
