@@ -8,23 +8,24 @@ body {
 }
 
 .btn-sm-primary {
-    background-color: #ff8000;
+    background-image: -moz-linear-gradient( 0deg, rgb(246,1,64) 0%, rgb(200,32,144) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(246,1,64) 0%, rgb(200,32,144) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(246,1,64) 0%, rgb(200,32,144) 100%);
     color: #fff;
 }
 
 .btn-sm-primary:hover {
-    background-color: #c26100;
     color: #fff;
 }
 
 .btn-sm-outline-primary {
-    border-color: #ff8000;
-    color: #ff8000;
+    border-color: #f50243;
+    color: #f50243;
 }
 
 .btn-sm-outline-primary:hover {
-    border-color: #c26100;
-    color: #c26100;
+    border-color: #ca0036;
+    color: #ca0036;
 }
 
 .round-card-border {
@@ -94,7 +95,7 @@ body {
 }
 
 .text-shadow {
-    text-shadow: 0px 12px 10px rgba(137, 34, 38, 0.44);
+    text-shadow: 0px 10px 15px rgba(0, 6, 176, 0.44);
 }
 
 table.table-bordered-black {
@@ -106,4 +107,16 @@ table.table-bordered-black > thead > tr > th{
 }
 table.table-bordered-black > tbody > tr > td{
     border:1px solid rgb(0, 0, 0);
+}
+
+.bg-blog-bottom {
+    background-image: url('../../images/v2/gradient-blob-enhanced.png');
+    background-size: 900px;
+    background-repeat: repeat;
+    background-position: top;
+}
+
+.bg-ornaments {
+    background-image: url('../../images/v2/ornament.png');
+    background-repeat: repeat;
 }
