@@ -86,6 +86,9 @@ body {
 
 .sm-text-yellow {
     color: #fcff00;
+    vertical-align: super;
+    text-align: center;
+    text-shadow: 0px 3px 0px rgba(251, 56, 142, 1);
 }
 
 @media only screen and (max-width: 768px) {
@@ -120,3 +123,11 @@ table.table-bordered-black > tbody > tr > td{
     background-image: url('../../images/v2/ornament.png');
     background-repeat: repeat;
 }
+
+path {
+    fill: transparent;
+  }
+  
+text {
+    fill: #FF9800;
+}  

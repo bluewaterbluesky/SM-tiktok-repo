@@ -6,19 +6,23 @@
                 <div class="text-center maintenance">
                     <img class="col-sm-1 col-md-5 col-lg-5" src="<?= base_url('images/v2/APPROVED-SM-SUPER-TIKTOK-CHALLENGE.png') ?>" width="100%">
                 </div>
-                <h5 class="sm-text-yellow text-center text-shadow mt-4 display-6 fw-bold">
+                <h5 class="sm-text-yellow text-center mt-4 display-6 fw-bold">
                     <strong>
-                        JOIN THE BIGGEST NATIONWIDE TIKTOK CHALLENGE!
+                        Join the country's most drip TikTok challenge!
                     </strong>
                 </h5>
-                <h6 class="text-white text-center mt-4">
+                <h6 class="text-white text-center display-7 text-shadow mt-4">
                     <strong>
-                        Create a TikTok video dancing or singing along to the SM Jungle with your fam, friends, or fur babies for a chance to win a super aweSM prizes!
+                        Flex your TikTok skills and vibe to the SM Jingle with your fam, friends and fur babies for a chance to win <span class="sm-text-yellow display-7"><strong>P100,000</strong></span> cash 
+                        and super aweSM prizes!
                     </strong>
                 </h6>
-                <h5 class="text-white text-center text-shadow mt-4">
+                <p class="text-white text-center text-shadow mt-4">
+                    Submission of entries is from
+                </p>
+                <h5 class="text-white text-center text-shadow">
                     <strong>
-                        Submission of entries is from Aug 30 to Sept 30, 2021.
+                        Aug 30 to Sept 30, 2021.
                     </strong>
                 </h5>
                 <div class="justify-content-center mt-4 text-center">
